@@ -3,17 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Z's Coffee Shop</title>
-    <meta name="author" content="Azionne Vorrice" />
-    <meta name="keywords" content="coffee, beans,java" />
-    <meta name="description" content="Learn how to make coffee" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Triple Peaks Library</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="favicon.ico" type="image/bean" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-5"
       rel="stylesheet"
     />
   </head>
@@ -21,16 +16,23 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img src="" alt="" class="" />
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#staff-picks">Recipes</a>
+              <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link" href="#become-member">Book a table</a>
+              <a class="nav__link" href="#staff-picks">Staff picks</a>
             </li>
             <li>
-              <a class="nav__link" href="#about-library">Menu</a>
+              <a class="nav__link" href="#become-member">Become a member</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about-library">About</a>
             </li>
             <li>
               <a class="nav__link" href="#contacts">Contacts</a>
@@ -58,7 +60,7 @@
         </div>
       </header>
       <main class="content">
-        <section id="recipes" class="recipes">
+        <section id="events" class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -137,7 +139,7 @@
             </div>
           </div>
         </section>
-        <section id="reservation" class="reservation">
+        <section id="staff-picks" class="staff">
           <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
@@ -207,7 +209,7 @@
             </li>
           </ul>
         </section>
-        <section id="menu" class="menu">
+        <section id="become-member" class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -262,7 +264,7 @@
             </li>
           </ul>
         </section>
-        <section id="about" class="about">
+        <section id="about-library" class="about">
           <img
             class="about__image"
             src="./images/cafe-about.svg"
