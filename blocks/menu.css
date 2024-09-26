@@ -14,7 +14,7 @@
 .menu__title {
   max-width: 780px;
   text-align: center;
-  padding: 0 0 24px;
+  margin: 0 0 24px;
   font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 44px;
